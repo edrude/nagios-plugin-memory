@@ -10,7 +10,7 @@ Estimation of how much memory is available for starting new applications, withou
 # Requirements
 Ruby
 
-On EL6 vm.meminfo_legacy_layout must be set to 0. `sysctl -w vm.mem-info_legacy_layout=0`
+On EL6 vm.meminfo_legacy_layout must be set to 0. `sysctl -w vm.meminfo_legacy_layout=0`
 
 # Tested on
 * CentOS6 - ruby 1.8.7 (2013-06-27 patchlevel 374) [x86_64-linux]
